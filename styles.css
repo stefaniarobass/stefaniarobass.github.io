@@ -1,6 +1,5 @@
 body {
     background-color: #dddddd;
-
 }
 
 
@@ -171,8 +170,10 @@ iframe {
     border: 0;
 }
 .container {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #cccccc;
+}
+.navbar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .custom-navbar {
     background-color: #cccccc;
