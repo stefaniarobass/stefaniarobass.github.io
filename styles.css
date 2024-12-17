@@ -170,3 +170,21 @@ iframe {
     width: 100%;
     border: 0;
 }
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #cccccc;
+}
+.custom-navbar {
+    background-color: #cccccc;
+    
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    background-color: #cccccc;
+    
+}
+.navbar-nav {
+    font-size: 1.5rem;
+    background-color: #cccccc;
+    
+}
