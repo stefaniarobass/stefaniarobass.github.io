@@ -113,9 +113,18 @@ footer {
 } */
 
 h3 {
-    font-size: 22px;
+    font-size: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(46, 66, 181);
+
 }
+ul{
+    background-color: #cccccc;
+    font-family: "Merriweather", serif;
+    border-radius: 7%;
+
+}
+
 
 .uljos {
     margin: 0px;
