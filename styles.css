@@ -140,7 +140,7 @@ ul{
 .card {
     padding: 25px;
     border: 1px solid black;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .container {
@@ -183,6 +183,7 @@ iframe {
 }
 .navbar{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .custom-navbar {
     background-color: #cccccc;
@@ -191,6 +192,7 @@ iframe {
 .navbar-brand{
     font-size: 3.5rem;
     background-color: #cccccc;
+    
     
 }
 .navbar-nav {
