@@ -96,7 +96,7 @@ button:hover {
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -183,11 +183,19 @@ iframe {
 .card{
     flex: 1;
     max-width: 18rem;
-    display: inline-block;
+    display: flex;
     margin: 10px;
     vertical-align: top;
+    justify-content: center;
+    align-items: center;
 }
 .card-img-top{
     width: 100%;
     height: auto;
 }
+img{
+   width: 500px;
+   height: 400px;
+}
+
+
