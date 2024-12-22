@@ -197,5 +197,7 @@ img{
    width: 500px;
    height: 400px;
 }
-
-
+.social-media-text{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
