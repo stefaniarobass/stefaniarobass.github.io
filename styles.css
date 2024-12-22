@@ -149,29 +149,6 @@ ul{
     padding: 2px 16px;
 }
 
-#carduri {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 50px;
-    border: 25px;
-    border-radius: 12px;
-}
-
-#harta {
-    text-decoration: none;
-    overflow: hidden;
-    max-width: 100%;
-    width: 1000px;
-    height: 500px;
-}
-
-#embed-map-display {
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-}
-
 
 iframe {
     height: 100%;
@@ -199,4 +176,18 @@ iframe {
     font-size: 1.5rem;
     background-color: #cccccc;
     
+}
+.card-container {
+    text-align: center;
+}
+.card{
+    flex: 1;
+    max-width: 18rem;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+.card-img-top{
+    width: 100%;
+    height: auto;
 }
