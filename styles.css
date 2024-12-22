@@ -11,11 +11,12 @@ body {
     background-color: rgb(46, 66, 181);
     padding: 12px 200px;
     border-radius: 10px;
+    margin-top: 10px;
 
 }
 
-div {
-    
+.container {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,11 +107,11 @@ footer {
 
 }
 
-/* .ulsub{
+.ulsub{
     display:flex;
     flex-direction: column;
     align-items: center;
-} */
+} 
 
 h3 {
     font-size: 1.5rem;
@@ -118,7 +119,8 @@ h3 {
     color: rgb(46, 66, 181);
 
 }
-ul{
+
+ul {
     background-color: #cccccc;
     font-family: "Merriweather", serif;
     border-radius: 7%;
@@ -147,40 +149,50 @@ ul{
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 2px 16px;
+    background-color: #cccccc;
 }
 
+.container-fluid {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 iframe {
     height: 100%;
     width: 100%;
     border: 0;
 }
-.container {
-    background-color: #cccccc;
+
+.navbar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
-.navbar{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
+
 .custom-navbar {
     background-color: #cccccc;
-    
+
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 3.5rem;
     background-color: #cccccc;
-    
-    
+
+
 }
+
 .navbar-nav {
     font-size: 1.5rem;
     background-color: #cccccc;
-    
+
 }
+
 .card-container {
     text-align: center;
 }
-.card{
+
+.card {
     flex: 1;
     max-width: 18rem;
     display: flex;
@@ -189,15 +201,100 @@ iframe {
     justify-content: center;
     align-items: center;
 }
-.card-img-top{
+
+.card-img-top {
     width: 100%;
     height: auto;
 }
-img{
-   width: 500px;
-   height: 400px;
+
+img {
+    width: 500px;
+    height: 400px;
 }
-.social-media-text{
+
+.social-media-text {
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+.carousel-item img {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    object-fit: cover; 
+     margin-right: -50%; 
+
+}
+
+.carousel-item {
+    margin-right: -50%; 
+
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item,
+.active {
+    padding: 0;
+}
+
+
+.slide {
+    padding: 0;
+}
+
+.carousel-control-prev {
+
+    padding: 0;
+}
+
+.carousel-control-next {
+
+    padding: 0;
+}
+
+#carouselExample {
+
+     height: 400px;
+    height: auto;
+    width: 100%;
+
+    width: 40%;
+
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.carousel-inner {
+
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+
+.centering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 300px;
+}
+
+.carddiv{
+    display:flex;
+    flex-direction: row;
+}
+
